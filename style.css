@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(95, 22, 212);
+    padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    max-width:540px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 80px;
+    background: #80d475;
+    border-radius: 10px;
+  
+}
+
+.todo-app h2{
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.todo-app h2 img{
+    width: 80px;
+    height: 60px;
+    margin-left: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(202, 197, 190);
+    border-radius: 15px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    
+}
+input{
+    flex: 1;
+    border:none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+button{
+    border: none;
+    outline: none;
+    background: #a05b5b;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+ul li{
+    position: relative; 
+    cursor: pointer;
+    font-size: 15px;
+    padding:20px 20px ;
+    color: black;
+    user-select: none;
+    margin-top: -27px;
+   
+ 
+}
+ul li.checked{
+    color: #ca8888;
+    text-decoration: line-through;
+    
+}
+ul li span {
+    position: absolute;
+    right: 0px; /* Changed right positioning to 10px */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    font-size: 18px; /* Reduced font size to 18px */
+    color: #d80b0b;
+    line-height: 30px;
+    text-align: center;
+    background-color: #f2f2f2; /* Added background color */
+    border-radius: 50%; /* Added border-radius for a circular shape */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Added a transition effect */
+}
+
+ul li span:hover {
+    background: #2856b1;
+    color: #fff;
+}
+
+
