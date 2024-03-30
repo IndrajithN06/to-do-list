@@ -1,5 +1,5 @@
 ## GitHub Pages
 
-You can view the live version of this project on GitHub Pages:
+Check out my project its live 
 
-[Visit GitHub Pages](https://indrajithn06.github.io/to-do-list/)
+[My To-do-List App](https://indrajithn06.github.io/to-do-list/)
