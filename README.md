@@ -1,5 +1,5 @@
-## GitHub Pages
+## To-do-list 
 
-Check out my project its live 
+To check out the live demo 👇
 
-[My To-do-List App](https://indrajithn06.github.io/to-do-list/)
+[Click here](https://indrajithn06.github.io/to-do-list/)
